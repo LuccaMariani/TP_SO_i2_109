@@ -7,4 +7,12 @@ haciendo un git fetch LINK del repositorio de mi compañero (siendo LINK el repo
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 
-Lamentablemente GAMMA no estuvo presente hoy, asi que o pudimos probar esto.
+Lamentablemente GAMMA no estuvo presente hoy, asi que no pudimos probar esto.
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+Gamma no estuvo presente por lo que no pudimos probarlo,pero si se podria actualizar si los dos FORK ya estan realizados
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar el fork?
+
+No,los datos no se pierden si actualizo el Fork
