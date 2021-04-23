@@ -16,3 +16,65 @@ Gamma no estuvo presente por lo que no pudimos probarlo,pero si se podria actual
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar el fork?
 
 No,los datos no se pierden si actualizo el Fork
+
+e-
+#Enriquez Ignacio
+git clone https://github.com/IgnacioEnriquez/TP_SO_i2_109.git
+*creo archivo fork.txt
+git add .
+git status
+git commit -m "Se agrego fork.txt"
+git push
+
+#Mariani Juan Luca
+*fork al repo https://github.com/IgnacioEnriquez/TP_SO_i2_109.git
+git clone https://github.com/LuccaMariani/TP_SO_i2_109.git
+*actualize el fork.txt
+git add .
+git status
+git commit -m "fork.txt actualizado con mis datos"
+git push
+
+#Enriquez Ignacio
+*agrego NuevoDato.txt
+git add .
+git status
+git commit -m "Se agrego NuevoDato.txt"
+git push
+
+#Mariani Juan Luca
+git fetch https://github.com/IgnacioEnriquez/TP_SO_i2_109.git
+git pull https://github.com/IgnacioEnriquez/TP_SO_i2_109.git
+
+#Enriquez Ignacio
+*agrego respuesta_I2_Equipo109.txt
+git add .
+git status
+git commit -m "Se agrego respuesta_I2_Equipo109.txt"
+git push
+
+#Mariani Juan Luca
+git pull https://github.com/IgnacioEnriquez/TP_SO_i2_109.git
+*agrego las respuestas a y b al respuesta_I2_Equipo109.txt
+git add .
+git status
+git commit -m "modifique el archivo txt de las pregunstas, con las respuestas -a y b"
+git push
+
+#Enriquez Ignacio
+git fetch https://github.com/LuccaMariani/TP_SO_i2_109.git
+git pull https://github.com/LuccaMariani/TP_SO_i2_109.git
+*agrego las respuestas c y d al respuesta_I2_Equipo109.txt
+git add .
+git status
+git commit -m "Se Actualizaron las respuestas de Gamma y se agrego la respuesta C y D"
+git push
+
+#Mariani Juan Luca
+git pull https://github.com/IgnacioEnriquez/TP_SO_i2_109.git
+*agrego las respuesta E al respuesta_I2_Equipo109.txt
+git add .
+git status
+git commit -m "modifique el archivo txt de las preguntas, con las respuesta -e"
+git push
+
