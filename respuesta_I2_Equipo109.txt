@@ -1,2 +1,10 @@
 Enriquez Ignacio
 Mariani Juan Luca
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+haciendo un git fetch LINK del repositorio de mi compañero (siendo LINK el repositorio de mi compañero)y luego haciendo un git pull LINK.
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+Lamentablemente GAMMA no estuvo presente hoy, asi que o pudimos probar esto.
